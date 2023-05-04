@@ -1,7 +1,7 @@
 # Grouped-Data-Analysis-in-R-Descriptive-Statistics-of-a-Sample-Dataset
 This R language project computes descriptive statistics for a given dataset. The dataset is a vector of numeric values. The code computes various statistical measures such as mean, median, mode, variance, standard deviation, coefficient of variation, and skewness for the dataset.
 
-# How to use:
+# How to use
 
   Install R and an IDE such as RStudio on your system.
   Load the dataset into the R environment. You can do this by copying the data into the R console or by importing a CSV file that contains the data.
@@ -9,7 +9,7 @@ This R language project computes descriptive statistics for a given dataset. The
   Run the code to compute the various statistical measures for the dataset.
   The output will be displayed in the console.
 
-# Code explanation:
+# Code explanation
 
   The code starts by defining the dataset as a vector of numeric values.
   The maximum and minimum values of the dataset are computed.
@@ -23,5 +23,5 @@ This R language project computes descriptive statistics for a given dataset. The
   The coefficient of variation is computed by dividing the standard deviation by the mean and multiplying by 100.
   The skewness is computed using the formula (3*(mean-median))/standard deviation.
 
-# Note: 
+# Note
   The code assumes that the dataset is a vector of numeric values and that the class intervals are of width 5. If the dataset is not of this form, the code may need to be modified accordingly.
